@@ -1,4 +1,16 @@
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <span>Upload File</span>
+        <span class="example-spacer"></span>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    <div style="margin-top: 24px">
+      <input
+        mat-raised-button
+        type="file"
+        (change)="onChange($event)"
 
-<div >
-<input type="file" (change)="inputFileChange($event) "/>
-</div>
+      />
+    </div>
+ 
+
